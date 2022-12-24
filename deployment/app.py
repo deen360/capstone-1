@@ -7,7 +7,7 @@ from pymongo import MongoClient
 import numpy as np
 
 
-client = pymongo.MongoClient("mongodb+srv://deen360:1_Jackson5@cluster0.zyfi4dh.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://deen360<password>@cluster0.zyfi4dh.mongodb.net/?retryWrites=true&w=majority")
 
 
 # name of database
