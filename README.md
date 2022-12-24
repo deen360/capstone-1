@@ -1,5 +1,5 @@
 # capstone-1
-the purpose of this project is to analyse the training data mpgTrainingset.txt (published by
+the purpose of this project is to analyse the training data mpgTrainingset.txt  (published by
 Garnegie Mellon). </br>
 
 The data represent the characteristics of cars: number of cylinders, cubic inch displacement, horse
