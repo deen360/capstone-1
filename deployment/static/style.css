@@ -1,0 +1,132 @@
+html{
+    font-size: 16px;
+    height: 95vh;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    height: 90%;
+    background-image: url(./car.jpg);
+    background-size:contain;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+  
+    
+  
+  }
+  
+.box {
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    background-color: rgba(113, 10, 10, 0.612);
+    align-self: center;
+    justify-items: center;
+    height: fit-content;
+    border: solid rgba(0, 0, 0, 0.528);
+    border: 2px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:-40px; 
+
+  }
+  
+.heading {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 30px;
+    margin-top:-50px; 
+        
+    
+  }
+  
+.button{
+    display: ;
+    width: 250px;
+    height: 30px;
+    background-color: blanchedalmond;
+    border: solid rgba(0, 0, 0, 0.528);
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 0px 0px 3px;
+   
+  }
+  
+p{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+  }
+  
+  .list{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top:-20px; 
+    background-color: rgb(223, 206, 206);
+    margin-top: 50px;
+    height: fit-content;
+    color: black;
+    font-weight: 900;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.528);
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 27px;
+    text-align: center;
+    
+  }
+  
+  
+.item {
+    display: flex;
+    color: brown;
+    justify-content: space-between;
+    padding: 5px 20px 5px 5px;
+    align-self: center;
+    width: 200px;
+
+
+  
+  }
+  
+.item_input {
+    background-color: rgba(240, 248, 255, 0.484);
+    font-weight: 900;
+    text-align: center;
+    height: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    padding: 25px 20px 25px 25px;
+
+  }
+  
+  .items_button {
+    font-family: inherit;
+    color: black;
+    font-size: 16px;
+  
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .box,.list{
+      width: 65%;
+    }
+  
+   .button{
+      width: 100px;
+    }
+  }
