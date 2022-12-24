@@ -9,3 +9,5 @@ The category is discrete (values of 10, 15, 20, 25, 30, 35, 40, and 45) . It rep
 in miles per gallon. </br>
 
 the goal is to predict with the highest reliability the category of the cars belonging to the file mpgTestset.txt.
+
+final model is deployed on [Car consumption](https://car-consumption.herokuapp.com/predict/)
